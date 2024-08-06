@@ -11,7 +11,7 @@ public class LeetCode {
 		for (int i = 0; i < str.length(); i++) {
 			char ch = str.charAt(i);
 			if (map.get(ch) == null) {
-				map.put(ch, )
+				map.put(ch, i);
 			}
 
 		}

@@ -20,7 +20,7 @@ public class ProbIBM2 {
         }
         
         boolean[] visited = new boolean[N];
-        int total_visited = 0;
+//        int total_visited = 0;
         
         for(int i=0; i<nums.size(); i++){
             if(visited[i]){
@@ -31,7 +31,7 @@ public class ProbIBM2 {
         int num = nums.get(i);
         int last_index = i;
         visited[i] = true;
-        total_visited++;
+//        total_visited++;
         
         for(int j=num+1 ; j<num+K; j++){
             if(!idx.containsKey(j) || idx.get(j).size() == 0){
@@ -45,7 +45,7 @@ public class ProbIBM2 {
             
             last_index = next_iindex;
             visited[last_index]= true;
-            total_visited++;
+//            total_visited++;
             idx.get(j).remove(last_index);
             
         }
