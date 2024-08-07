@@ -16,7 +16,7 @@ public class LeetCode {
 
 		}
 		
-		System.out.println("Whats up?");
+		System.out.println("Whats up?")
 
 	}
 
