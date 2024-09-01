@@ -61,7 +61,7 @@ public class ProbIBM2 {
     	nums.add(3);
 		String s = partitionArray(3, nums);
 		System.out.println(s);
-		System.out.println("Let's chill")
+		System.out.println("Let's chill");
 	}
 
 }
