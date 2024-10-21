@@ -1,4 +1,4 @@
-package LeetCode_Array101_Card_Tutorial;
+package leetcode_array101_card_tutorial;
 
 class ListNode {
 	int val;
